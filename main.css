@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(193, 192, 192);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:black
+}
+
+.navbar ul li a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+
+.sub-banner{
+    margin:10px;
+}
+
+.sub-banner img{
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+}
+
+.text{
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.items-listed{
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.item-names{
+    display: flex;
+    list-style: none;
+    flex-direction: row;  
+}
+
+.item-names ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-names ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.item-names ul li img{
+    margin-top: 20px;
+    width: 100 px;
+    height: 200px;
+    object-fit: contain;
+}
+
+/*.item-names ul li b{
+    display: flex;
+    flex-direction: row;
+}*/
+
+/*.item-images{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.item-images ul li{
+    list-style: none;
+    display: inline-block;
+    justify-content:right;
+    margin-right: 50px;
+}
+
+.item-images ul li img{
+    width: 150px; 
+    height: 200px;
+}
+*/
+
+.post-it {
+    display: flex;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    left: 10%;
+    background: linear-gradient(90deg, #da298a, #b22e8a);
+    padding: 15px;
+    animation: loopAnimation 5s linear  ;
+}
+
+@keyframes loopAnimation {
+    0% {
+        top: 0;
+        transform: rotate(0deg);
+    }
+    100% {
+        top: 100%;
+        transform: rotate(360deg);
+    }
+}
+
+.post-it p {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
