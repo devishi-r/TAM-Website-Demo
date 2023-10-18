@@ -4,12 +4,20 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "build-css-file": "tailwindcss build src/main.css -o public/styles.css" 
+    "build-css-file": "tailwindcss build src/main.css -o public/styles.css",
+    "watch": "tailwindcss build src/main.css -o public/styles.css --watch"
   },  
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "tailwindcss": "^3.3.3"
+  },
+
+
+  "_comments_for_general_Explaination/Learning :D":{
+    "comment": "Commented content for learning/testing uwu",
+    "build-scripts-changed-explained": "will run once, process ip css file and reflect changes into op file defined by -o (output) tag",
+    "watch-script-explained": "build will run once, watch will constantly watch dynamic developments made in og css file :)"
   }
 }
